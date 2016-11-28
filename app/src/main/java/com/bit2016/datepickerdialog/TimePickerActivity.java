@@ -12,8 +12,8 @@ public class TimePickerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_time_picker);
-/*
-        (TimePicker)findViewById(R.id.timePicker).init(24,0,new TimePicker.OnTimeChangedListener() {
+
+        ((TimePicker)findViewById(R.id.timePicker)).setOnTimeChangedListener(new TimePicker.OnTimeChangedListener() {
             @Override
             public void onTimeChanged(TimePicker view, int hourOfDay, int minute) {
                 Intent intent = new Intent();
@@ -23,7 +23,7 @@ public class TimePickerActivity extends AppCompatActivity {
                 setResult(Activity.RESULT_OK,intent);
                 finish();
             }
-        }) ;*/
+        }) ;
 
     }
     @Override
