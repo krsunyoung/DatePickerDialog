@@ -87,6 +87,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:id="@+id/textView4"
+        android:focusable="true"
+        android:enabled="true"
         android:layout_below="@+id/textView"
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView" />
@@ -101,6 +103,7 @@
 
     <TextView
         android:text="종료시간"
+        android:focusable="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView5"

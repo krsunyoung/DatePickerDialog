@@ -13,9 +13,9 @@
     <DatePicker
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:datePickerMode="calendar"
         android:id="@+id/datePicker"
         android:calendarViewShown="true"
-        android:datePickerMode="calendar"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true" />
